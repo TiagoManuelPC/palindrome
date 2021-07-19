@@ -1,0 +1,11 @@
+<div>
+  <form action="Post">
+    <input #box (keyup)="updateWord(box.value)"  pattern="[a-zA-Z]*"  >
+    <button  (click)="checkWord()">Check</button>
+  </form>
+
+  <p>{{result}}</p>
+ 
+  
+  
+</div>
